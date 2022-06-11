@@ -6,6 +6,8 @@ const Bouncy = () => {
             <h1 className="text-center lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black mb-14 animate-bounce">
                 this text likes to bounce
             </h1>
+            <p>
+            </p>
         </div>
     )
 }

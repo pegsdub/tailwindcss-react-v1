@@ -3,7 +3,7 @@ import React from 'react'
 const Creations = () => {
     return (
         <div className="p-8 bg-gradient-to-b from-white to-green-100 h-screen flex flex-col justify-center items-center">
-            <h1 className="text-center lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black mb-14">
+            <h1 className="text-center md:text-7xl sm:text-5xl text-3xl font-black mb-14">
                 as i create projects, i will post snapshots of them here with links to the projects on github
             </h1>
         </div>
