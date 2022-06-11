@@ -4,7 +4,7 @@ const ContactMe = () => {
     return (
         <div className="bg-gradient-to-b from-white to-green-100 h-screen flex flex-col justify-center items-center">
             <h1 className=" text-center md:text-7xl sm:text-5xl text-5xl font-black mb-14">
-                <a href='https://www.linkedin.com/in/nate-pegram'>
+                <a href='https://www.linkedin.com/in/nate-pegram' target='_blank' rel='noreferrer noopener'>
                     <div className='hover:text-neutral-400 transition duration-700 ease-in-out infinite text-center'>
                         linkedin
                         <button>
@@ -15,7 +15,7 @@ const ContactMe = () => {
                     </div>
                 </a>
                 <br />
-                <a href="https://www.github.com/pegsdub">
+                <a href='https://www.github.com/pegsdub' target='_blank' rel='noreferrer noopener'>
                     <div className='hover:text-neutral-400 transition duration-1000 animate-wiggle 1s ease-in-out infinite'>
                         github
                         <button>
