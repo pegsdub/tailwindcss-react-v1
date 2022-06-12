@@ -21,7 +21,7 @@ const Me = () => {
             </div>
             <div className='snap-start bg-white w-screen h-screen flex items-center justify-center'>
                 <h1 className="text-center lg:text-7xl md:text-7xl sm:text-5xl text-3xl font-extralight mb-14 underline decoration-black">
-                    <Link to='/creations' s> check out some of the projects that i have created</Link>
+                    <Link to='/creations'> check out some of the projects that i have created</Link>
                 </h1>
             </div>
         </div>
