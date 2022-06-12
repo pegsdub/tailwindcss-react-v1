@@ -3,7 +3,7 @@ import React from 'react'
 const ContactMe = () => {
     return (
         <div className="bg-gradient-to-b from-white to-green-100 h-screen flex flex-col justify-center items-center">
-            <h1 className=" text-center md:text-7xl sm:text-5xl text-5xl font-black mb-14">
+            <h1 className=" text-center md:text-7xl sm:text-5xl text-5xl font-extralight mb-14">
                 <a href='https://www.linkedin.com/in/nate-pegram' target='_blank' rel='noreferrer noopener'>
                     <div className='hover:text-neutral-400 transition duration-700 ease-in-out infinite text-center'>
                         linkedin
