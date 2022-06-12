@@ -2,10 +2,10 @@ import React from 'react'
 
 const ContactMe = () => {
     return (
-        <div className="bg-gradient-to-b from-white to-green-100 h-screen flex flex-col justify-center items-center">
+        <div className="bg-gradient-to-b from-white to-white h-screen flex flex-col justify-center items-center">
             <h1 className=" text-center md:text-7xl sm:text-5xl text-5xl font-extralight mb-14">
                 <a href='https://www.linkedin.com/in/nate-pegram' target='_blank' rel='noreferrer noopener'>
-                    <div className='hover:text-neutral-400 transition duration-700 ease-in-out infinite text-center'>
+                    <div className='hover:text-neutral-400 transition duration-700 ease-in-out infinite text-center underline decoration-green-200'>
                         linkedin
                         <button>
                             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
@@ -16,7 +16,7 @@ const ContactMe = () => {
                 </a>
                 <br />
                 <a href='https://www.github.com/pegsdub' target='_blank' rel='noreferrer noopener'>
-                    <div className='hover:text-neutral-400 transition duration-1000 animate-wiggle 1s ease-in-out infinite'>
+                    <div className='hover:text-neutral-400 transition duration-1000 animate-wiggle 1s ease-in-out infinite underline decoration-indigo-200'>
                         github
                         <button>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">

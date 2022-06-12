@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = ({ toggle }) => {
     return (
-        <nav className='m-4 p-8 flex rounded-xl justify-between items-center h-16 bg-green-100 text-black relative shadow-inner shadow-lg font-extralight shadow-inner' role='navigation'>
+        <nav className='m-4 p-2 flex rounded-xl justify-between items-center h-16 bg-transparent text-black relative shadow-inner shadow-lg font-extralight' role='navigation'>
             <Link to='/' className="p-8 hover:text-indigo-400 transition duration-700 ease-in-out">
                 hello :)
             </Link>

@@ -3,9 +3,8 @@ import { Link } from 'react-router-dom'
 
 const Hero = () => {
     return (
-        <div className="bg-gradient-to-b from-white to-green-100 h-screen flex flex-col justify-center items-center">
-            <h1 className="z-50 lg:text-9xl md:text-7xl text-6xl font-extralight mb-14 bg-gradient-to-r bg-clip-text text-transparent
-            from-gray-700 via-green-400 to-gray-700
+        <div className="bg-gradient-to-b from-white to-white h-screen flex flex-col justify-center items-center">
+            <h1 className="z-50 lg:text-9xl md:text-7xl text-6xl font-extralight mb-14 bg-gradient-to-r bg-clip-text 
             animate-text">
                 nate's plaza
             </h1>
