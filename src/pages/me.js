@@ -11,7 +11,7 @@ const Me = () => {
             </div>
             <div className='snap-start bg-green-100 w-screen h-screen flex items-center justify-center'>
                 <h1 className="text-center lg:text-7xl md:text-7xl sm:text-5xl text-3xl font-extralight mb-14 underline decoration-indigo-200">
-                    i currently am learning JavaScript, HTML, CSS, and React...
+                    i currently am learning JavaScript, React, CSS, and HTML...
                 </h1>
             </div>
             <div className='snap-start bg-indigo-100 w-screen h-screen flex items-center justify-center'>
