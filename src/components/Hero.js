@@ -17,9 +17,8 @@ const Hero = () => {
                 </div>
             </div>
             <Link to='/bouncy' className="-m-2 py-3 px-5 bg-transparent font-extralight rounded-full lg:text-2xl md:text-lg base:text-sm hover:bg-green-100 transition duration-1000 ease-in-out flex flex-row items-center animate-bounce shadow-xl">
-                <em>this is cool</em>
-                <svg className="w-6 h-6 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-                </svg>
+                <em>snek game</em>
+                <svg class="w-6 h-6 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
             </Link>
         </div>
     );
