@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Me = () => {
     return (
-        <div className='h-screen w-screen overflow-scroll'>
+        <div className='h-screen w-screen overflow-scroll text-stone-700'>
             <div className='snap-start w-screen h-screen flex items-center justify-center'>
                 <h1 className="px-8 text-center lg:text-7xl md:text-7xl sm:text-5xl text-3xl font-extralight mb-14 underline decoration-green-200">
                     i am a lover of all things green...

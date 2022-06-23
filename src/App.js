@@ -6,9 +6,7 @@ import { Routes, Route } from 'react-router-dom'
 import Me from './pages/me';
 import ContactMe from './pages/contactme';
 import Creations from './pages/creations';
-import Bouncy from './pages/bouncy';
 import Dropdown from './components/Dropdown';
-import Footer from './components/Footer';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,9 +39,6 @@ function App() {
         <Route path='/me' element={<Me />} />
         <Route path='/contactme' element={<ContactMe />} />
         <Route path='/creations' element={<Creations />} />
-        <Route path='/bouncy' element={<Bouncy />} />
-        <Route path='/Footer' element={<Footer />} />
-
       </Routes>
     </>
   );
